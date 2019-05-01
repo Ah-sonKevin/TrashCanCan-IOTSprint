@@ -1,6 +1,6 @@
 **#Trash can can**
 
-**#Concept **
+**#Concept**
 Recycling and sorting waste is something that is widely talked about, yet still seems to be difficult for individuals in the sense that 100% of the people we interviewed want to do it more and better. Issues include unclear directions at recycling stations, lack of resources at home and just plain laziness. We can even see people treating trash in a completely ignorant way, when it’s all over streets, parks and festival areas. And when asked how people feel about this, the words hate, mad, littering fines, terrible, awful and uncivilized came up. So we built a product to make recycling more effortless, fun, and directly valuable for people.
 
 TrashCanCan is a service to be combined with the increased use of city bikes. The city bikes are already attached to stops that serve as fixed locations the users are going to visit anyway.
@@ -35,6 +35,6 @@ sudo python3 -m pip install --user -Uv wiringpi
 Control Pin of the motor : 18
 Led positive pin : 14
 
-**#How to use it **
+**#How to use it**
 
 To start the program type python3 main.py
