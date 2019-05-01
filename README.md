@@ -17,7 +17,7 @@ A led will lit up when an object is detected
 
 sudo aptitude install -y  python3-pip gfortran python3-dev python-setuptools    python3-pyqt5 libtbb2   libqt4-test  libv4l-dev libxvidcore-dev libx264-dev libgtk-3-dev  libatlas-base-dev   libilmbase-dev libopenexr-dev libgstreamer1.0-dev libqtgui4  libatlas3-base libopencv-dev libpng12-dev    libhdf5-dev libjpeg8-dev  libjpeg-dev libtiff5-dev liblcms2-dev libwebp-dev libharfbuzz-dev libfribidi-dev tcl8.6-dev tk8.6-dev python-tk libgtk2.0-dev libavcodec-dev libavformat-dev libswscale-dev    libtbb-dev ibtiff-dev libjasper-dev libdc1394-22-dev
 
-**#Installation of tensorflow**
+**#Installation of tensorflow**&nbsp;
 python3 -m pip install --user -Uv tensorflow
 
 **#Installation of the other dependencies for the image recognition**
