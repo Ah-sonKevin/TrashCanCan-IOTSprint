@@ -33,6 +33,7 @@ sudo python3 -m pip install --user -Uv wiringpi
 **#Pinout (BCM numbering)**
 
 Control Pin of the motor : 18
+
 Led positive pin : 14
 
 **#How to use it**
