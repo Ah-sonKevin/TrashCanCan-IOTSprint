@@ -4,8 +4,7 @@ import cv2
 import ledControl
 import time
 
-execution_path = os.getcwd()                                               
-camera = cv2.VideoCapture(0)                                                          
+execution_path = os.getcwd()                                                                                                         
 detector = VideoObjectDetection()                                                     
 ledController = ledControl.LedController()
 #Time since the last time an boject was recognised
@@ -15,6 +14,8 @@ print('sudo python3 '+os.getcwd()+'/motorManager.py --right')
 detector.setModelTypeAsTinyYOLOv3()                                                   
 detector.setModelPath(os.path.join(execution_path , "yolo-tiny.h5"))                  
 detector.loadModel(detection_speed="fast")  
+
+camera = cv2.VideoCapture(0)
 
 def forFrame(frame_number, output_array, output_count):
     global lastReco
